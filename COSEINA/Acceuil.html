@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acceuil</title>
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="stylesheet" href="node_modules/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="src/style/main.css">
+    <link rel="stylesheet" href="node_modules/aos/dist/aos.css" />
+    <script src="node_modules/aos/dist/aos.js"></script>
+    <script src="node_modules/swiper/swiper-bundle.min.js"></script>
+    <script src="node_modules/swiper/swiper-bundle.js"></script>
+    <script type="module" src="src/js/index.js" defer></script>
+    <script src="node_modules/gsap/dist/gsap.min.js"></script>
+    <script src="node_modules/gsap/dist/TextPlugin.min.js"></script>
+</head>
+<body>
+    <div class="bg-[url('/image/bar-826688_1920.jpg')] bg-cover bg-center h-screen ">
+      <header class="p-4">
+  <div class="container mx-auto flex justify-between items-center">
+    <div>
+      <h1 class="text-green-500 font-bold text-xl lg:text-green-500">COSEINA</h1>
+    </div>
+
+    <ul class="hidden lg:flex space-x-4 text-lg">
+      <li class="text-white hover:text-green-500"><a href="#">Accueil</a></li>
+      <li class="text-white hover:text-green-500"><a href="menu.html">Menu</a></li>
+      <li class="text-white hover:text-green-500"><a href="Apropos.html">A propos de nous</a></li>
+      <li class="text-white hover:text-green-500"><a href="contact.html">Contactez nous</a></li>
+    </ul>
+
+    <div class="lg:hidden">
+      <img src="/icone/menu.png" alt="Menu" class="block w-8" id="btn">
+    </div>
+  </div>
+</header>
+    <div class="flex lg:hidden justify-center text-center mt-2" id="nav">
+  <ul class="flex flex-col space-y-2 text-lg">
+    <li class="text-white hover:text-green-500"><a href="#">Accueil</a></li>
+    <li class="text-white hover:text-green-500"><a href="menu.html">Menu</a></li>
+    <li class="text-white hover:text-green-500"><a href="Apropos.html">À propos de nous</a></li>
+    <li class="text-white hover:text-green-500"><a href="contact.html">Contactez-nous</a></li>
+  </ul>
+</div>
+
+    <div class="flex flex-col lg:h-screen  text-center items-center justify-center lg:flex" id="slide-in">
+        <h2 class="text-white text-4xl font-bold  ">Une expérience culinaire inoubliable vous attend</h2>
+        <p class="text-white text-xl ">Réservez en ligne ou commandez en quelques clics</p>
+        <div class="flex p-5 space-x-7">
+            <button class="bg-green-500 shadow-lg shadow-green-500/50 text-white rounded-xl cursor-pointer p-2
+                transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-green-500 w-3/5" id="ina">Reservez  </button>
+
+                <button class="border border-2-white text-white rounded-xl cursor-pointer p-2
+                transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-red-500  hover:font-bold "><a href="commander.html">Commandez</a></button>
+        </div>
+    </div>
+ </div>
+ <div class="bg-green-300 p-5 overflow-x-auto" id="banger" data-aos="fade-up">
+  <div class="flex justify-between space-x-8 lg:space-x-12 min-w-max">
+    
+    <div class="flex flex-col items-center text-center">
+      <img src="/icone/livraison-de-la-commande.png" alt="Livraison" width="80">
+      <p class="text-white font-bold text-lg mt-2">Livraison</p>
+    </div>
+    
+    <div class="flex flex-col items-center text-center">
+      <img src="/icone/reservation.png" alt="Réservation" width="80">
+      <p class="text-white font-bold text-lg mt-2">Réservation</p>
+    </div>
+    
+    <div class="flex flex-col items-center text-center">
+      <img src="/icone/medaille.png" alt="Qualité" width="80">
+      <p class="text-white font-bold text-lg mt-2">Meilleure Qualité</p>
+    </div>
+    
+    <div class="flex flex-col items-center text-center">
+      <img src="/icone/restaurant.png" alt="Menu" width="80">
+      <p class="text-white font-bold text-lg mt-2">Menu varié</p>
+    </div>
+
+  </div>
+</div>
+
+
+     <br>
+     <div class="p-5 mx-7" id="banger"  data-aos="fade-up">
+       <div class="grid grid-cols-1 md:grid-cols-2 gap-6 p-5  ">
+           <div class="flex flex-col mx-8" >
+               <div id="box"  class="">
+                <h2 class="font-bold lg:text-3xl md:text-3xl" >A PROPOS</h2>
+               <p class="text-lg lg:text-xl md:text-sm" >
+                COSEINA est née d’une passion commune pour la cuisine et l’envie de créer un lieu où les saveurs racontent une histoire. <br>
+                 Tout a commencé avec une idée simple : offrir une expérience culinaire authentique, dans une ambiance chaleureuse, où chaque client se sent chez lui. Depuis nos débuts,<br>
+                  nous avons grandi grâce à la confiance de notre fidèle clientèle et au dévouement d’une équipe passionnée.
+               </p>
+               </div>
+                      <div class="p-5">
+                       <button class=" rounded-xl text-white  bg-green-500 items-center  p-2 my-4
+                               transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-sky-500"><a href="Apropos.html">En savoir plus</a></button>
+                      </div>
+           </div>
+           <div class="flex justify-center items-center p-3 ">
+               <img src="/cuisine/pexels-pixabay-262978.jpg" alt=""  class="rounded-xl w-full max-w-lg object-cover">
+           </div>
+       </div>
+     </div>
+        <div class=" flex flex-col p-12 lg:flex  " style="transform: translateX(63px);" id="banger"  data-aos="fade-up">
+       <div class=" text-black text-3xl font-serif md:flex lg:flex">
+           <h2 > Quelques plats</h2>
+       </div>
+       <div class="text-black font-serif ">
+           <p>Très populaires</p>
+       </div>
+   </div>
+   <div class="grid grid-cols-1 md:grid-cols-3 gap-6 p-5"  id="banger"  data-aos="fade-up">
+    <div class="mx-auto">
+       <div class="shadow-xl  rounded-lg w-83 border border-green-300 ">
+           <div class="bg-[url('/image/ai-generated-8704062_1920.jpg')]  bg-cover bg-center w-full h-50 rounded-none">
+               <div class="p-4">
+                   <div class="grid grid-flow-col grid-rows-4 gap-4 ">
+                       <div class="flex bg-gray-50  w-20 rounded-xl">
+                           <img src="/icone/minuteur.png" alt="" class="w-10">
+                       <button class=" text-black items-center justify-center text-xs">25 mins</button>
+                       </div>
+                     </div>
+               </div>
+           </div>
+           <p class="p-3"><strong>Pizza margherita</strong><br>Ideal pour un groupe de personne.</p>
+           <div class="flex justify-end ">
+               <button class=" rounded-xl text-white bg-green-500 items-center  p-2 my-4
+                       transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-sky-5000" style="transform: translateX(-30px);"><a href="commander.html">Commander</a></button>
+           </div>
+       </div>
+   </div>
+   <div class="mx-auto">
+       <div class="shadow-xl  rounded-lg w-83 border border-green-300 ">
+           <div class="bg-[url('/image/ai-generated-8704062_1920.jpg')]]  bg-cover bg-center w-full h-50 rounded-none" style="background-image: url('image/pexels-valeriia-yevchinets-689609988-18719656.jpg');">
+               <div class="p-4">
+                   <div class="grid grid-flow-col grid-rows-4 gap-4 ">
+                       <div class="flex bg-gray-50  w-20 rounded-xl">
+                           <img src="/icone/minuteur.png" alt="" class="w-10">
+                       <button class=" text-black items-center justify-center text-xs">35 mins</button>
+                       </div>
+                     </div>
+               </div>
+           </div>
+           <p class="p-3"><strong>Brochette de poulet</strong><br>Déguster avec sauveur collectivement.</p>
+           <div class="flex justify-end ">
+               <button class=" rounded-xl text-white bg-green-500 items-center  p-2 my-4
+                       transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-sky-5000" style="transform: translateX(-30px);"><a href="commander.html">Commander</a></button>
+           </div>
+       </div>
+   </div>
+   <div class="mx-auto">
+       <div class="shadow-xl  rounded-lg w-83 border border-green-300 ">
+           <div class=" bg-cover bg-center w-full h-50 rounded-none" style="background-image: url('image/pexels-enginakyurt-2673353.jpg');">
+               <div class="p-4">
+                   <div class="grid grid-flow-col grid-rows-4 gap-4 ">
+                       <div class="flex bg-gray-50  w-20 rounded-xl">
+                           <img src="/icone/minuteur.png" alt="" class="w-10">
+                       <button class=" text-black items-center justify-center text-xs">30 mins</button>
+                       </div>
+                     </div>
+               </div>
+           </div>
+           <p class="p-3"><strong>Poulet à la sauce</strong><br>Un délice fondant en sauce, à savourer.</p>
+           <div class="flex justify-end ">
+               <button class=" rounded-xl text-white bg-green-500 items-center  p-2 my-4
+                       transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-sky-5000" style="transform: translateX(-30px);"><a href="commander.html">Commander</a></button>
+           </div>
+       </div>
+   </div>
+   </div>
+   <div style="padding: 20px;">
+   </div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 p-5"    data-aos="fade-up" id="mask" style="display: none;" >
+   <div class="mx-auto">
+       <div class="shadow-xl  rounded-lg w-83 border border-green-300 ">
+           <div class="  bg-cover bg-center w-full h-50 rounded-none" style="background-image: url('image/pexels-robinstickel-70497.jpg');">
+               <div class="p-4">
+                   <div class="grid grid-flow-col grid-rows-4 gap-4 ">
+                       <div class="flex bg-gray-50  w-20 rounded-xl">
+                           <img src="/icone/minuteur.png" alt="" class="w-10">
+                       <button class=" text-black items-center justify-center text-xs">10 mins</button>
+                       </div>
+                     </div>
+               </div>
+           </div>
+           <p class="p-3"><strong>Burger</strong><br>Commandez votre burger et régalez-vous.</p>
+           <div class="flex justify-end ">
+               <button class=" rounded-xl text-white bg-green-500 items-center  p-2 my-4
+                       transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-sky-5000" style="transform: translateX(-30px);"><a href="commander.html">Commander</a></button>
+           </div>
+       </div>
+   </div>
+   
+   <div class="mx-auto"  data-aos="fade-up" >
+       <div class="shadow-xl  rounded-lg w-83 border border-green-300 ">
+           <div class=" bg-cover bg-center w-full h-50 rounded-none" style="background-image: url('image/pexels-marceloverfe-16743489.jpg');">
+               <div class="p-4">
+                   <div class="grid grid-flow-col grid-rows-4 gap-4 ">
+                       <div class="flex bg-gray-50  w-20 rounded-xl">
+                           <img src="/icone/minuteur.png" alt="" class="w-10">
+                       <button class=" text-black items-center justify-center text-xs">45 mins</button>
+                       </div>
+                     </div>
+               </div>
+           </div>
+           <p class="p-3"><strong>Riz et crevette</strong><br>Riz parfumé, crevettes savoureuses.</p>
+           <div class="flex justify-end ">
+               <button class=" rounded-xl text-white bg-green-500 items-center  p-2 my-4
+                       transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-sky-5000" style="transform: translateX(-30px);"><a href="commander.html">Commander</a></button>
+           </div>
+       </div>
+   </div>
+   <div class="mx-auto"  data-aos="fade-up">
+       <div class="shadow-xl  rounded-lg w-83 border border-green-300 ">
+           <div class=" bg-cover bg-center w-full h-50 rounded-none" style="background-image: url('image/pexels-keesha-s-kitchen-22731136-13915043 (1).jpg');">
+               <div class="p-4">
+                   <div class="grid grid-flow-col grid-rows-4 gap-4 ">
+                       <div class="flex bg-gray-50  w-20 rounded-xl">
+                           <img src="/icone/minuteur.png" alt="" class="w-10">
+                       <button class=" text-black items-center justify-center text-xs">20 mins</button>
+                       </div>
+                     </div>
+               </div>
+           </div>
+           <p class="p-3"><strong>Riz et brochettes</strong><br>Riz tendre, brochettes exquises.</p>
+           <div class="flex justify-end ">
+               <button class=" rounded-xl text-white bg-green-500 items-center  p-2 my-4
+                       transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-sky-5000" style="transform: translateX(-30px);"><a href="commander.html">Commander</a></button>
+           </div>
+       </div>
+   </div>
+</div>
+<div class="flex p-8 items-center justify-center" id="banger"  data-aos="fade-up">
+       <button class="rounded-full text-white bg-green-500 items-center p-3
+   transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-sky-5000" id="voir">Voir plus</button>
+   </div>
+    <div class="flex flex-col  " style="transform: translate(20px,-10px);" id="banger" data-aos="zoom-in-down">
+       <div class=" text-black text-3xl font-serif">
+           <h2 class="">Mieux notés</h2>
+       </div>
+       <div class=" text-black font-serif">
+           <p class="">Nous sommes un restaurant moderne qui propose une variété de plat.</p>
+       </div>
+       <div class=" text-black font-serif">
+           <p class="">Découvrer une autre culture gâce à sa cuisine.</p>
+       </div>
+   </div>
+   <div class="p-5">
+   </div>
+   <div class="swiper p-5">
+  <div class="swiper-wrapper">
+
+    <div class="swiper-slide p-5">
+      <div class="flex-col shadow-xl w-full h-full" data-aos="fade-up">
+        <div class="flex flex-col shadow-xl w-full justify-center overflow-hidden">
+          <img src="/image/pexels-chitokan-2087748.jpg" alt="" class="rounded-2xl">
+        </div>
+        <div class="flex flex-col">
+          <div class="flex justify-center p-5" style="transform: translateY(-12px);">
+            <img src="/icone/etoile.png" alt="" width="25px">
+            <img src="/icone/etoile.png" alt="" width="25px">
+            <img src="/icone/etoile.png" alt="" width="25px">
+            <img src="/icone/2.png" alt="" width="25px">
+            <img src="/icone/2.png" alt="" width="25px">
+          </div>
+          <p class="p-5 text-center text-blue-700 font-bold" style="transform: translateY(-40px);">Tacos</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="swiper-slide p-5">
+      <div class="flex-col shadow-xl w-full h-full" data-aos="fade-up">
+        <div class="flex flex-col shadow-xl w-full justify-center">
+          <img src="/image/pexels-jeshoots-3724.jpg" alt="" class="rounded-2xl">
+        </div>
+        <div class="flex flex-col">
+          <div class="flex justify-center p-5" style="transform: translateY(-12px);">
+            <img src="/icone/etoile.png" alt="" width="25px">
+            <img src="/icone/etoile.png" alt="" width="25px">
+            <img src="/icone/etoile.png" alt="" width="25px">
+            <img src="/icone/2.png" alt="" width="25px">
+            <img src="/icone/2.png" alt="" width="25px">
+          </div>
+          <p class="p-5 text-center text-blue-700 font-bold" style="transform: translateY(-40px);">Croissant</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="swiper-slide p-5">
+      <div class="flex-col shadow-xl w-full h-full" data-aos="fade-up">
+        <div class="flex flex-col shadow-xl w-full justify-center">
+          <img src="/image/pexels-kevin-zamorano-61080508-8243229.jpg" alt="" class="rounded-2xl">
+        </div>
+        <div class="flex flex-col">
+          <div class="flex justify-center p-5" style="transform: translateY(-12px);">
+            <img src="/icone/etoile.png" alt="" width="25px">
+            <img src="/icone/etoile.png" alt="" width="25px">
+            <img src="/icone/etoile.png" alt="" width="25px">
+            <img src="/icone/2.png" alt="" width="25px">
+            <img src="/icone/2.png" alt="" width="25px">
+          </div>
+          <p class="p-5 text-center text-blue-700 font-bold" style="transform: translateY(-40px);">steak</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="swiper-slide p-5">
+      <div class="flex-col shadow-xl w-full h-full" data-aos="fade-up">
+        <div class="flex flex-col shadow-xl w-full justify-center overflow-hidden">
+          <img src="/image/pexels-pixabay-461060 (1).jpg" alt="" class="rounded-2xl">
+        </div>
+        <div class="flex flex-col">
+          <div class="flex justify-center p-5" style="transform: translateY(-12px);">
+            <img src="/icone/etoile.png" alt="" width="25px">
+            <img src="/icone/etoile.png" alt="" width="25px">
+            <img src="/icone/etoile.png" alt="" width="25px">
+            <img src="/icone/2.png" alt="" width="25px">
+            <img src="/icone/2.png" alt="" width="25px">
+          </div>
+          <p class="p-5 text-center text-blue-700 font-bold" style="transform: translateY(-40px);">Le Pain</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="swiper-slide p-5">
+      <div class="flex-col shadow-xl w-full h-full" data-aos="fade-up">
+        <div class="flex flex-col shadow-xl w-full justify-center overflow-hidden">
+          <img src="/image/pexels-sorrasfilms-13914952.jpg" alt="" class="rounded-2xl">
+        </div>
+        <div class="flex flex-col">
+          <div class="flex justify-center p-5" style="transform: translateY(-12px);">
+            <img src="/icone/etoile.png" alt="" width="25px">
+            <img src="/icone/etoile.png" alt="" width="25px">
+            <img src="/icone/etoile.png" alt="" width="25px">
+            <img src="/icone/2.png" alt="" width="25px">
+            <img src="/icone/2.png" alt="" width="25px">
+          </div>
+          <p class="p-5 text-center text-blue-700 font-bold" style="transform: translateY(-40px);">Gâteau au chocolat</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="swiper-slide p-5">
+      <div class="flex-col shadow-xl w-full h-full" data-aos="fade-up">
+        <div class="flex flex-col shadow-xl w-full justify-center overflow-hidden">
+          <img src="/image/pexels-rachel-claire-5863618.jpg" alt="" class="rounded-2xl">
+        </div>
+        <div class="flex flex-col">
+          <div class="flex justify-center p-5" style="transform: translateY(-12px);">
+            <img src="/icone/etoile.png" alt="" width="25px">
+            <img src="/icone/etoile.png" alt="" width="25px">
+            <img src="/icone/etoile.png" alt="" width="25px">
+            <img src="/icone/2.png" alt="" width="25px">
+            <img src="/icone/2.png" alt="" width="25px">
+          </div>
+          <p class="p-5 text-center text-blue-700 font-bold" style="transform: translateY(-40px);">Poisson Grillé</p>
+        </div>
+      </div>
+    </div>
+    </div>
+
+  <div class="swiper-pagination " style="transform: translateY(12px);"></div>
+
+  <div class="swiper-button-prev translate-y-[-30px] " ></div>
+  <div class="swiper-button-next translate-y-[-30px] " ></div>
+
+</div>
+
+    
+  <div class="flex p-8 items-center justify-center"style="transform: translateY(70px);" id="banger" data-aos="zoom-in-down">
+       <button class="rounded-full text-white bg-green-500 items-center p-3
+   transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-sky-5000">Télecharger le menu</button>
+   </div>
+   <div class="p-5">
+
+   </div>
+   <br>
+       <div class="p-12 bg-sky-900 "  data-aos="fade-up">
+       <div class="lg:flex justify-between " >
+           <div class=" flex flex-col  text-white" >
+               <h3 class="font-bold text-lg">Contact</h3>
+               <div class="grid grid-cols-2 p-3 ">
+                <div class="shadow bg-amber-50 w-10 rounded-2xl p-2">
+                    <img src="/contact/email.png" alt="" width="100px">
+                </div>
+                   <p style="transform:translateX(-86px);">coseina@gmail.com</p>
+               </div>
+               <div class="grid grid-cols-2 p-2">
+                <div class="shadow bg-amber-50 w-10 rounded-2xl p-2">
+                    <img src="/contact/telephone.png" alt="" width="30px">
+                </div>
+                   <p style="transform:translateX(-86px);">00242 06 892 12 17</p>
+               </div>
+               <div class="grid grid-cols-2 p-2">
+                <div class="shadow bg-amber-50 w-10 rounded-2xl p-2">
+                    <img src="/contact/broche-de-localisation.png" alt="" width="30px">
+                </div>
+                   <p style="transform:translateX(-86px);">12 rue Barcelone</p>
+               </div>
+           </div>
+           <div class="text-white " >
+               <h3 class="text-lg font-bold">Catalogue</h3>
+               <div class="md:flex flex-col p-3">
+                   <p class="text-sm text-justify"><a href="">Acceuil</a></p>
+                   <p class="text-sm text-justify"><a href="">Menu</a></p>
+                   <p class="text-sm text-justify"><a href="">A propos de nous</a></p>
+                   <p class="text-sm text-justify"><a href="">Contact-nous</a></p>
+               </div>
+           </div>
+           <div class="flex flex-col text-white md:ml-10">
+   <h3 class="text-lg font-bold">Heures d'ouvertures</h3>
+   <p class="text-sm text-center">Lundi au Vendredi</p>
+   <p class="text-center text-sm">08h30-23h30</p> <br>
+   <p class="text-sm text-center">Samedi au Dimanche</p>
+   <p class="text-center text-sm">08h30-19h30</p>
+</div>
+<div class="p-5"></div>
+
+           <div class="text-white text-lg font-bold" id="col-4 p-5">
+               <h3 class="text-lg fond-bold">Newstler</h3>
+               <div class="flex">
+                   <form action="">
+                       <p>
+                           <input type="text" placeholder="Entrez votre Email" class="border border-gray-300 rounded-lg p-2 w-full ">
+                       </p>
+                      <p class="p-3">
+                       <button class="bg-red-500 shadow-lg shadow-red-500/50 text-white rounded-xl cursor-pointer p-1
+                transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-red-500" style="transform: translateX(-19px);" id="ina">S'abonnner</button>
+                      </p>
+                   </form>
+               </div>
+           </div>
+       </div>
+       <div class="flex justify-center space-x-3" style="transform: translateY(30px);">
+        <div class="shadow bg-amber-50 w-10 rounded-2xl p-2">
+            <img src="/reseau/facebook (1).png" alt="" width="35px">
+        </div>
+        <div class="shadow bg-amber-50 w-10 rounded-2xl p-2">
+            <img src="/reseau/instagram.png" alt="" width="35px">
+        </div>
+        <div class="shadow bg-amber-50 w-10 rounded-2xl p-2">
+            <img src="/reseau/youtube.png" alt="" width="35px">
+        </div>
+        <div class="shadow bg-amber-50 w-10 rounded-2xl p-2">
+            <img src="/reseau/tik-tok.png" alt="" width="35px">
+        </div>
+
+       </div>
+       <p class="text-center text-xs font-bold  text-white " style="transform: translateY(45px);">copyright &copy; 2025 COSEINA.</p>
+       </div>
+     <script>
+    AOS.init();
+  </script>
+</body>
+</html>

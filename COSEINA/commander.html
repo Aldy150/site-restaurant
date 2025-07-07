@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+     <link rel="stylesheet" href="src/output.css">
+    <link rel="stylesheet" href="node_modules/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="src/style/main.css">
+    <link rel="stylesheet" href="node_modules/aos/dist/aos.css" />
+    <script src="node_modules/aos/dist/aos.js"></script>
+    <script src="node_modules/swiper/swiper-bundle.min.js"></script>
+    <script src="node_modules/swiper/swiper-bundle.js"></script>
+</head>
+<body class="bg-cyan-800">
+     <header class="p-4">
+  <div class="container mx-auto flex justify-between items-center">
+    <div>
+      <h1 class="text-green-500 font-bold text-xl lg:text-green-500">COSEINA</h1>
+    </div>
+
+    <ul class="hidden lg:flex space-x-4 text-lg">
+      <li class="text-white hover:text-green-500"><a href="Acceuil.html">Accueil</a></li>
+      <li class="text-white hover:text-green-500"><a href="menu.html">Menu</a></li>
+      <li class="text-white hover:text-green-500"><a href="Apropos.html">A propos de nous</a></li>
+      <li class="text-white hover:text-green-500"><a href="contact.html">Contactez nous</a></li>
+    </ul>
+
+    <div class="lg:hidden">
+      <img src="/icone/menu.png" alt="Menu" class="block w-8" id="btn">
+    </div>
+  </div>
+</header>
+    <div class="flex lg:hidden justify-center text-center mt-2" id="nav">
+  <ul class="flex flex-col space-y-2 text-lg">
+    <li class="text-white hover:text-green-500"><a href="Acceuil.html">Accueil</a></li>
+    <li class="text-white hover:text-green-500"><a href="menu.html">Menu</a></li>
+    <li class="text-white hover:text-green-500"><a href="Apropos.html">À propos de nous</a></li>
+    <li class="text-white hover:text-green-500"><a href="contact.html">Contactez-nous</a></li>
+  </ul>
+</div>
+         
+        <div class="flex lg:hidden justify-center text-center mt-2" id="nav">
+  <ul class="flex flex-col space-y-2 text-lg">
+    <li class="text-white hover:text-green-500"><a href="#">Accueil</a></li>
+    <li class="text-white hover:text-green-500"><a href="menu.html">Menu</a></li>
+    <li class="text-white hover:text-green-500"><a href="Apropos.html">À propos de nous</a></li>
+    <li class="text-white hover:text-green-500"><a href="contact.html">Contactez-nous</a></li>
+  </ul>
+</div>
+        <div class="p-5"></div>
+        <div class="p-[16px]">
+            <div class="w-full">
+  <div class="flex justify-center mb-8"> <h1 class="text-4xl text-white font-bold">Commander içi</h1>
+  </div>
+
+  <div class=" gap-8:lg md:gap-16 px-4 py-8 sm:px-6 sm:py-10 lg:px-8 lg:py-12 max-w-6xl mx-auto">
+    <div class="w-full flex justify-center">
+       <form action="#" method="post" name="commande" class="w-100 rounded-xl border-2 border-green-500 shadow-xl" id="commande">
+  <h1 class="text-white h-15 text-center font-bold text-2xl p-3">Faites votre commande</h1>
+
+  <div class="p-2">
+    <input type="text" class="border-2 border-green-500 rounded-lg p-2 w-full text-white hover:border-red-500" placeholder="Entrez votre nom" id="Nom">
+    <p id="ErreurNom" class="text-white mx-3 text-sm"></p>
+  </div>
+
+  <div class="p-2">
+    <input type="text" class="border-2 border-green-500 rounded-lg p-2 w-full text-white hover:border-red-500" placeholder="Entrez votre prénom" id="Prenom">
+    <p id="ErreurPrenom" class="text-white mx-3 text-sm"></p>
+  </div>
+
+  <div class="p-2">
+    <input type="email" class="border-2 border-green-500 rounded-lg p-2 w-full text-white hover:border-red-500" placeholder="Entrez votre email" id="Email">
+    <p id="ErreurEmail" class="text-white mx-3 text-sm"></p>
+  </div>
+
+  <div class="p-2">
+    <select name="type" id="qualite" class="border-2 border-green-500 rounded-lg p-2 w-full text-white bg-cyan-800 hover:border-red-500">
+      <option value="">-- Sélectionnez un type --</option>
+      <option value="Meilleurs choix">Meilleurs choix</option>
+      <option value="Entrées">Entrées</option>
+      <option value="Boissons">Boissons</option>
+      <option value="Autres">Autres</option>
+    </select>
+    <p id="Erreurqualite" class="text-white mx-3 text-sm"></p>
+
+  </div>
+
+  <div class="p-2">
+    <input type="text" id="nomcommande" class="border-2 border-green-500 rounded-lg p-2 w-full text-white hover:border-red-500" placeholder="Votre commande...">
+    <p id="Erreurnomcommande" class="text-white mx-3 text-sm"></p>
+  </div>
+
+  <div class="flex items-center justify-center p-3">
+    <button type="submit" class="bg-red-500 shadow-lg shadow-red-500 text-white rounded-xl cursor-pointer p-2 px-4 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-red-600">
+      Valider
+    </button>
+  </div>
+</form>
+
+    </div>
+    </div>
+  </div>
+</div>
+</div>
+        </div>
+     <br>
+         <div class="p-12 bg-gray-900 "  data-aos="fade-up">
+       <div class="lg:flex justify-between " >
+           <div class=" flex flex-col  text-white" >
+               <h3 class="font-bold text-lg">Contact</h3>
+               <div class="grid grid-cols-2 p-3 ">
+                <div class="shadow bg-amber-50 w-10 rounded-2xl p-2">
+                    <img src="/contact/email.png" alt="" width="100px">
+                </div>
+                   <p style="transform:translateX(-86px);">coseina@gmail.com</p>
+               </div>
+               <div class="grid grid-cols-2 p-2">
+                <div class="shadow bg-amber-50 w-10 rounded-2xl p-2">
+                    <img src="/contact/telephone.png" alt="" width="30px">
+                </div>
+                   <p style="transform:translateX(-86px);">00242 06 892 12 17</p>
+               </div>
+               <div class="grid grid-cols-2 p-2">
+                <div class="shadow bg-amber-50 w-10 rounded-2xl p-2">
+                    <img src="/contact/broche-de-localisation.png" alt="" width="30px">
+                </div>
+                   <p style="transform:translateX(-86px);">12 rue Barcelone</p>
+               </div>
+           </div>
+           <div class="text-white " >
+               <h3 class="text-lg font-bold">Catalogue</h3>
+               <div class="md:flex flex-col p-3">
+                   <p class="text-sm text-justify"><a href="">Acceuil</a></p>
+                   <p class="text-sm text-justify"><a href="">Menu</a></p>
+                   <p class="text-sm text-justify"><a href="">A propos de nous</a></p>
+                   <p class="text-sm text-justify"><a href="">Contact-nous</a></p>
+               </div>
+           </div>
+           <div class="flex flex-col text-white md:ml-10">
+   <h3 class="text-lg font-bold">Heures d'ouvertures</h3>
+   <p class="text-sm text-center">Lundi au Vendredi</p>
+   <p class="text-center text-sm">08h30-23h30</p> <br>
+   <p class="text-sm text-center">Samedi au Dimanche</p>
+   <p class="text-center text-sm">08h30-19h30</p>
+</div>
+<div class="p-5"></div>
+
+           <div class="text-white text-lg font-bold" id="col-4 p-5">
+               <h3 class="text-lg fond-bold">Newstler</h3>
+               <div class="flex">
+                   <form action="">
+                       <p>
+                           <input type="text" placeholder="Entrez votre Email" class="border border-gray-300 rounded-lg p-2 w-full ">
+                       </p>
+                      <p class="p-3">
+                       <button class="bg-red-500 shadow-lg shadow-red-500/50 text-white rounded-xl cursor-pointer p-1
+                transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-red-500" style="transform: translateX(-19px);">S'abonnner</button>
+                      </p>
+                   </form>
+               </div>
+           </div>
+       </div>
+       <div class="flex justify-center space-x-3" style="transform: translateY(30px);">
+        <div class="shadow bg-amber-50 w-10 rounded-2xl p-2">
+            <img src="/reseau/facebook (1).png" alt="" width="35px">
+        </div>
+        <div class="shadow bg-amber-50 w-10 rounded-2xl p-2">
+            <img src="/reseau/instagram.png" alt="" width="35px">
+        </div>
+        <div class="shadow bg-amber-50 w-10 rounded-2xl p-2">
+            <img src="/reseau/youtube.png" alt="" width="35px">
+        </div>
+        <div class="shadow bg-amber-50 w-10 rounded-2xl p-2">
+            <img src="/reseau/tik-tok.png" alt="" width="35px">
+        </div>
+
+       </div>
+       <p class="text-center text-xs font-bold  text-white " style="transform: translateY(45px);">copyright &copy; 2025 COSEINA.</p>
+       </div>
+           <script type="module" src="command.js"></script>
+    <script>
+    AOS.init();
+  </script>
+
+</body>
